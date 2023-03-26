@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/profilePic"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
+    android:src="@drawable/profile"
+    android:contentDescription="Profile Picture Display"
+    app:layout_constraintDimensionRatio="h,25:16"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Muskan Verma"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#020F91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/profilePic"
+        />
+
+    <TextView
+        android:id="@+id/position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT Engineer"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        app:layout_constraintStart_toStartOf="@id/name"
+        />
+
+    <TextView
+        android:id="@+id/Education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Education"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#020F91"
+        app:layout_constraintStart_toStartOf="@id/position"
+        app:layout_constraintTop_toBottomOf="@id/position"
+        />
+
+    <TextView
+        android:id="@+id/collegeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Government Engineering College Bilaspur"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/Education"
+        app:layout_constraintStart_toStartOf="@id/Education"
+        />
+
+    <TextView
+        android:id="@+id/branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B Tech in Information Technology"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/collegeName"
+        app:layout_constraintStart_toStartOf="@id/collegeName"
+        />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="2021-25"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collegeName" />
+
+    <TextView
+        android:id="@+id/Course"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Courses"
+        android:textSize="28dp"
+        android:textStyle="italic"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#020F91"
+        app:layout_constraintStart_toStartOf="@id/branch"
+        app:layout_constraintTop_toBottomOf="@id/branch"
+        />
+
+    <TextView
+        android:id="@+id/additionalCourse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional Courses"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/Course"
+        app:layout_constraintStart_toStartOf="@id/Course"
+        />
+
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Development"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/additionalCourse"
+        app:layout_constraintStart_toStartOf="@id/additionalCourse"
+        />
+
+    <TextView
+        android:id="@+id/organization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Technophilia IIT Kharagpur"
+        android:textColor="#000"
+        android:textSize="17dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintTop_toBottomOf="@id/course1"
+        app:layout_constraintStart_toStartOf="@id/course1"
+        />
+
+    <TextView
+        android:id="@+id/year2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="2022"
+        android:layout_marginEnd="16dp"
+        android:textColor="#000"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/course1"/>
+
+    <Button
+        android:id="@+id/openGithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Github"
+        android:textSize="15dp"
+        android:backgroundTint="#1F3CF6"
+        android:onClick="openGitHub"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+<com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/addButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="18dp"
+    android:layout_marginEnd="25dp"
+    android:backgroundTint="#F37B7B"
+    android:onClick="addDetails"
+    android:src="@drawable/ic_baseline_add_24"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:foregroundGravity="bottom|right"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

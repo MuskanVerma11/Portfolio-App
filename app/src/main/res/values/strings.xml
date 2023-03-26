@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Portfolio version 2.O</string>
+    <string name="enter_name_and_position">Enter Name and Position</string>
+    <string name="enter_github_username">Enter GitHub Username</string>
+</resources>
