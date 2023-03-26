@@ -6,7 +6,4 @@ The User data is shown in main screen after clicking on submit button.***
 ### Here is the apk of Portfolio App-
 https://drive.google.com/file/d/1pJ1wnZuZoRd8I9hMqpgMsOVRFkaccqAt/view?usp=share_link
 
-![20decc57-7dbf-4182-b38e-58243195c043](https://user-images.githubusercontent.com/100348028/227765735-315cc30c-b117-47ad-b681-1c348148f8f4.jpeg)
-
-![c0c16e5f-196b-44e4-b719-cd68106826c8](https://user-images.githubusercontent.com/100348028/227765739-2bdd719a-a44d-4063-81e4-390ca3bc0c79.jpeg)
-
+<img src="https://user-images.githubusercontent.com/100348028/227766207-3156e472-e063-4ebc-8f50-a01a03c13c4e.png" width="250" height="450" /><img src="https://user-images.githubusercontent.com/100348028/227766525-1d1b3902-abeb-4549-b456-a3b8e7fe6d1a.png" width="250" height="450" />
